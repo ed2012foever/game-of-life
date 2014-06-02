@@ -268,7 +268,7 @@
             </build>
         </profile>
         <profile>
-            <id>maven3</id>
+            <id>maven2</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
@@ -287,7 +287,7 @@
                                 <configuration>
                                     <rules>
                                         <requireMavenVersion>
-                                            <version>[3.0,)</version>
+                                            <version>[2.0,)</version>
                                         </requireMavenVersion>
                                     </rules>
                                 </configuration>
